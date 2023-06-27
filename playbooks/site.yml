@@ -1,8 +1,9 @@
 ---
-# - name: import common.yml
-#   import_playbook: ../static-assignments/common.yml
-#   tags:
-#     - always
+
+- name: import common.yml
+  import_playbook: ../static-assignments/common.yml
+  tags:
+    - always
 
 - name: import common_del.yml
   import_playbook: ../static-assignments/common_del.yml
