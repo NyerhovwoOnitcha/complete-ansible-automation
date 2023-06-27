@@ -5,4 +5,4 @@
     - always
 
 - name: import common_del.yml
-  import_playbook: ../static-assignments/common_del.
+  import_playbook: ../static-assignments/common_del.yml
