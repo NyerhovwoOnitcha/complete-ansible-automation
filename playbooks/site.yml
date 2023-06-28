@@ -8,5 +8,5 @@
 # - name: import common_del.yml
 #   import_playbook: ../static-assignments/common_del.yml
 
-- name: import webservers file
+- name: import webservers playbook
   import_playbook: ../static-assignments/uatwebservers.yml
