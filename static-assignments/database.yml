@@ -1,0 +1,7 @@
+---
+- name: database role
+  hosts: db
+  roles:
+   - mysql
+  become: true
+  
